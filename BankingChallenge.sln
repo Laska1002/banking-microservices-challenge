@@ -1,0 +1,78 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Shared", "src\BuildingBlocks\Banking.Shared\Banking.Shared.csproj", "{A0000001-0000-4000-8000-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Domain", "src\Services\Customers\Customers.Domain\Customers.Domain.csproj", "{A0000002-0000-4000-8000-000000000002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Application", "src\Services\Customers\Customers.Application\Customers.Application.csproj", "{A0000003-0000-4000-8000-000000000003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Infrastructure", "src\Services\Customers\Customers.Infrastructure\Customers.Infrastructure.csproj", "{A0000004-0000-4000-8000-000000000004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "src\Services\Customers\Customers.Api\Customers.Api.csproj", "{A0000005-0000-4000-8000-000000000005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.Domain", "src\Services\Accounts\Accounts.Domain\Accounts.Domain.csproj", "{A0000006-0000-4000-8000-000000000006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.Application", "src\Services\Accounts\Accounts.Application\Accounts.Application.csproj", "{A0000007-0000-4000-8000-000000000007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.Infrastructure", "src\Services\Accounts\Accounts.Infrastructure\Accounts.Infrastructure.csproj", "{A0000008-0000-4000-8000-000000000008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.Api", "src\Services\Accounts\Accounts.Api\Accounts.Api.csproj", "{A0000009-0000-4000-8000-000000000009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.UnitTests", "tests\Customers.UnitTests\Customers.UnitTests.csproj", "{A0000010-0000-4000-8000-000000000010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.IntegrationTests", "tests\Accounts.IntegrationTests\Accounts.IntegrationTests.csproj", "{A0000011-0000-4000-8000-000000000011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0000001-0000-4000-8000-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000001-0000-4000-8000-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000001-0000-4000-8000-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000001-0000-4000-8000-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000002-0000-4000-8000-000000000002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000002-0000-4000-8000-000000000002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000002-0000-4000-8000-000000000002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000002-0000-4000-8000-000000000002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000003-0000-4000-8000-000000000003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000003-0000-4000-8000-000000000003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000003-0000-4000-8000-000000000003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000003-0000-4000-8000-000000000003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000004-0000-4000-8000-000000000004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000004-0000-4000-8000-000000000004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000004-0000-4000-8000-000000000004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000004-0000-4000-8000-000000000004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000005-0000-4000-8000-000000000005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000005-0000-4000-8000-000000000005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000005-0000-4000-8000-000000000005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000005-0000-4000-8000-000000000005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000006-0000-4000-8000-000000000006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000006-0000-4000-8000-000000000006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000006-0000-4000-8000-000000000006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000006-0000-4000-8000-000000000006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000007-0000-4000-8000-000000000007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000007-0000-4000-8000-000000000007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000007-0000-4000-8000-000000000007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000007-0000-4000-8000-000000000007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000008-0000-4000-8000-000000000008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000008-0000-4000-8000-000000000008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000008-0000-4000-8000-000000000008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000008-0000-4000-8000-000000000008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000009-0000-4000-8000-000000000009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000009-0000-4000-8000-000000000009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000009-0000-4000-8000-000000000009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000009-0000-4000-8000-000000000009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000010-0000-4000-8000-000000000010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000010-0000-4000-8000-000000000010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000010-0000-4000-8000-000000000010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000010-0000-4000-8000-000000000010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0000011-0000-4000-8000-000000000011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0000011-0000-4000-8000-000000000011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0000011-0000-4000-8000-000000000011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0000011-0000-4000-8000-000000000011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
